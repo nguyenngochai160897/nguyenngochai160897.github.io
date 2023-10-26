@@ -131,7 +131,7 @@ if(biicore.bgMusic){
 	}
 	</style>
 	<div class="bii-player">
-		<div onclick="playPause();" class="bii-player-secondary"><div class="bii-player-secondary-content">Click vÃ o Ä‘Ã¢y náº¿u báº¡n muá»‘n phÃ¡t nháº¡c!</div></div>
+		<div onclick="playPause();" class="bii-player-secondary"></div>
 		<div onclick="playPause();" class="playerIcon">
 			<span id="playerVolumeOff">
 				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="27" fill="#fff" class="bi bi-volume-mute-fill" viewBox="0 0 16 16">
@@ -215,11 +215,11 @@ if(!biicore.isPremium && !biicore.templatePremium) {
 	  .bii-footer .show-mobile{display: inline-block;}
 	}
 	</style>
-	<div class="bii-logo"><div class="bii-logo-secondary"><div class="bii-logo-secondary-content">Ná»n táº£ng táº¡o Website Ä‘Ã¡m cÆ°á»›i miá»…n phÃ­!</div></div><a href="${biicore.coreSite}/wedding" target="_blank"><img src="${biiLogo}" /></a></div>
+	<div class="bii-logo"><div class="bii-logo-secondary"><div class="bii-logo-secondary-content"></div></div><a href="${biicore.coreSite}/wedding" target="_blank"><img src="${biiLogo}" /></a></div>
 	<div class="bii-footer" style="z-index:9999;background-color: #000;border-top: 1px solid #df4759;color: #fff;text-align: center;letter-spacing: 1px;bottom: 0;width: 100%;font-size: 13px;">
 		<div class="container">
 			<a style="color:#fff;padding: 7px 0 9px;display: block;" href="https://biihappy.com/wedding" target="_blank">
-				<span><img width="16" src="${biiLogo}" style="border: 1px solid #fff;border-radius: 50%;width:16px!important;" /> IWedding</span> | <span class="show-desktop">Ná»n táº£ng táº¡o website Ä‘Ã¡m cÆ°á»›i miá»…n phÃ­ tá»« Biihappy</span><span class="show-mobile">Táº¡o website Ä‘Ã¡m cÆ°á»›i miá»…n phÃ­</span>
+				<span><img width="16" src="${biiLogo}" style="border: 1px solid #fff;border-radius: 50%;width:16px!important;" /> IWedding</span> | <span class="show-desktop"></span><span class="show-mobile">­</span>
 				<span style="line-height: 15px;vertical-align: middle;">
 					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
 					  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
